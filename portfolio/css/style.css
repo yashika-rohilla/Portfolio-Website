@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: black;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 55px;
+    width: 400px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 97px 0;
+    
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+.main{
+    background-color: rgb(225, 182, 118);
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    /*background-color: palevioletred;*/
+    height:75vh ;
+    width:80vw ;
+    margin: 144px ;
+    display: flex;
+    
+}
+.devInfo{
+    font-size: 2vh;
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    margin-top: 7vh;
+    flex-direction: column;
+}
+.hello{
+    font-size: 39px;
+    font-family: 'Volkhov', serif;
+    
+}
+.name{
+    font-size: 100px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+.about{
+    font-size: 28px;
+    font-family: 'Volkhov', serif;
+}
+.buttons{
+    margin-top: 34px;
+    
+}
+.buttons button{
+    padding: 9px 18px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(38, 153, 92);
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0 3px;
+    cursor: pointer;
+
+}
+.buttons button:hover{
+    background-color: white;
+    color: rgb(38,153,92);
+}
+
+
+.devPic img{
+    width: auto;
+    height: 75vh;
+    padding-left: 27vh;
+    margin-top: 0%;
+}
+
+.devabout{
+    font-size: 2vh;
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    margin-top: 24vh;
+    margin-left: 18vh;
+    flex-direction: column;
+    
+   
+}
+.name{
+    padding-bottom: 3vh;
+
+}
+.age{
+    padding-bottom: 2vh;
+    font-size: 40px;
+}
+.quali{
+    padding-bottom: 2vh;
+    font-size: 40px;
+}
+.lang{
+    padding-bottom: 2vh;
+    font-size: 40px;
+}
+.strength{
+    padding-bottom: 2vh;
+    font-size: 40px;
+}
+.intrst{
+    padding-bottom: 2vh;
+    font-size: 40px;
+}
+.buttonss{
+    margin-top: 2vh;
+    
+}
+.buttonss button{
+    padding: 9px 90px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(38, 153, 92);
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 3px;
+    cursor: pointer;
+
+}
+
+.devedu{
+    font-size: 2vh;
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    margin-top: 10vh;
+    margin-left: 18vh;
+    flex-direction: column;
+    
+   
+}
+.name{
+    padding-bottom: 2vh;
+
+}
+.edu1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.edu1sub{
+    font-size: 40px;
+    padding-bottom: 2vh;
+}
+.edu2{
+    font-size: 50px;
+    font-weight: bold;
+}
+.edu2sub{
+    font-size: 40px;
+    padding-bottom: 2vh;
+}
+.edu3{
+    font-size: 50px;
+    font-weight: bold;
+}
+.edu3sub{
+    font-size: 40px;
+    padding-bottom: 5vh;
+}
+.exp{
+    font-size: 50px;
+    font-weight: bold;
+}
+.expsub{
+    font-size: 40px;
+    padding-bottom: 5vh;
+}
+
+.contact{
+    font-size: 2vh;
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    margin-top: 10vh;
+    margin-left: 18vh;
+    margin-bottom: 100vh;
+    flex-direction: column;   
+}
+
+.contact  form .box{
+    padding:2vh;
+    margin:1rem 0;
+    background:#3333;
+    color:black;
+    text-transform: none;
+    font-size: 1.7rem;
+    width:50%;
+}
+
+.resume{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.resume a{
+    text-decoration: none;
+    font-size: 2.3rem;
+    font-family: sans-serif;
+    color: white;
+    background-color: black;
+    width: 280px;
+    padding: 20px 0px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.resume a:hover{
+    background-color: rgb(163, 161, 161);
+    color:black;
+}
